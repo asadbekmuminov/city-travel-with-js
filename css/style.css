@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+.title-time {
+  color: aquamarine;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.5s;
+}
+a:hover {
+  font-size: 60px;
+  color: aqua;
+}
+.secton-menu {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/menu-image.jpg);
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  font: 35px;
+  text-align: center;
+}
+
+.secton-london {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/london-iamge.jpg);
+  display: flex;
+  flex-direction: row;
+}
+.secton-rome {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/rome-image.jpg);
+}
+.secton-newyork {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/new-york.jpg);
+}
+.secton-tokio {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/tokio-image.jpg);
+}
+.secton-paris {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/paris-image.jpg);
+}
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-attachment: fixed;
+}
+.menu-link {
+  font-size: 30px;
+  margin-top: 50px;
+}
+.menu-link:hover {
+  color: rgb(40, 215, 221);
+  font-size: 40px;
+}
+
+.time-style {
+  font-size: 150px;
+  color: aqua;
+  font-weight: bold;
+}
+
+@media (max-width: 730px) {
+  .title-time {
+    font-size: 45px;
+  }
+  li {
+    font-size: 40px;
+  }
+}
+@media (max-width: 440px) {
+  .time-style {
+    font-size: 100px;
+  }
+}
